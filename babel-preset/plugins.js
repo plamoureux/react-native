@@ -9,6 +9,7 @@
 'use strict';
 
 module.exports = {
+  'babel-plugin-external-helpers': require('babel-plugin-external-helpers'),
   'babel-plugin-react-transform': require('babel-plugin-react-transform'),
   'babel-plugin-syntax-async-functions': require('babel-plugin-syntax-async-functions'),
   'babel-plugin-syntax-class-properties': require('babel-plugin-syntax-class-properties'),

@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-react-native",
+  "name": "@skyjs/babel-preset-react-native-rollup",
   "version": "1.9.2",
   "description": "Babel preset for React Native applications",
   "main": "index.js",
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/facebook/react-native/tree/master/babel-preset/README.md",
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.5.0",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-react-transform": "2.0.2",
     "babel-plugin-syntax-async-functions": "^6.5.0",
     "babel-plugin-syntax-class-properties": "^6.5.0",
@@ -40,8 +41,8 @@
     "babel-plugin-transform-object-assign": "^6.5.0",
     "babel-plugin-transform-object-rest-spread": "^6.5.0",
     "babel-plugin-transform-react-display-name": "^6.5.0",
-    "babel-plugin-transform-react-jsx-source": "^6.5.0",
     "babel-plugin-transform-react-jsx": "^6.5.0",
+    "babel-plugin-transform-react-jsx-source": "^6.5.0",
     "babel-plugin-transform-regenerator": "^6.5.0",
     "react-transform-hmr": "^1.0.4"
   }
